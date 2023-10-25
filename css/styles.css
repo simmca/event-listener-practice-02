@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background: #080808;
+    color: #eeeeee;
+}
+header, main, footer {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+}
+#problem .expression {
+  font-size: 48px;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin: 0 40px;
+}
+
+#answers ul {
+  margin: 0;
+  padding: 0;
+  margin: 40px auto;
+  display:flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+#answers li {
+  background: #080808;
+  border: 1px solid #eeeeee;
+  margin: 0 20px;
+  padding: 20px 30px;
+  cursor: pointer;
+
+}
+footer {
+  margin-top: 50px;
+  font-size: 12px;
+}
+button {
+  display: block;
+  margin: 40px auto;
+  padding: 8px 12px;
+  background-color: #07b19a;
+  text-transform: uppercase;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.hidden {
+  display:none;
+}
