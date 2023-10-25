@@ -1,2 +1,1 @@
-# event-listener-practice-02
-Event Listener Practice via a multiplication app.
+Event Listener Practice via a multiplication app. Utilizing HTML, CSS, and Javascript.
